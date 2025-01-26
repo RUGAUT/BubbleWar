@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ruben\\bubble\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|c:\\users\\ruben\\bubble\\assets\\periodicsoundeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|solutionrelative:assets\\periodicsoundeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|C:\\Users\\ruben\\bubble\\assets\\playmusiconcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|solutionrelative:assets\\playmusiconcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PeriodicSoundEffect.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\bubble\\Assets\\PeriodicSoundEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\PeriodicSoundEffect.cs",
+              "ToolTip": "C:\\Users\\ruben\\bubble\\Assets\\PeriodicSoundEffect.cs",
+              "RelativeToolTip": "Assets\\PeriodicSoundEffect.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:19:39.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayMusicOnCollision.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\bubble\\Assets\\PlayMusicOnCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayMusicOnCollision.cs",
+              "ToolTip": "C:\\Users\\ruben\\bubble\\Assets\\PlayMusicOnCollision.cs",
+              "RelativeToolTip": "Assets\\PlayMusicOnCollision.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:09:36.684Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1430 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'fr' Physical Memory: 16024 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ruben/bubble
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49996
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/ruben/bubble
+C:/Users/ruben/bubble
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [932]  Target information:
+
+Player connection [932]  * "[IP] 172.16.0.14 [Port] 0 [Flags] 2 [Guid] 502824669 [EditorId] 502824669 [Version] 1048832 [Id] WindowsEditor(7,RUBEN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [932] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [932] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 12.74 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ruben/bubble/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004689 seconds.
+- Loaded All Assemblies, in  0.452 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 282 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.664 seconds
+Domain Reload Profiling: 1114ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (177ms)
+		LoadAssemblies (174ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (155ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (664ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (624ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (380ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.189 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 8 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.361 seconds
+Domain Reload Profiling: 2542ms
+	BeginReloadAssembly (409ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (692ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (185ms)
+			BuildScriptInfoCaches (67ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1361ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1095ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (873ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.92 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 260 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6822 unused Assets / (7.4 MB). Loaded Objects now: 7636.
+Memory consumption went from 224.9 MB to 217.6 MB.
+Total: 26.376800 ms (FindLiveObjects: 1.494800 ms CreateObjectMapping: 0.550400 ms MarkObjects: 20.094400 ms  DeleteObjects: 4.235000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1635.464211 seconds.
+  path: Assets/GrainEffect.shader
+  artifactKey: Guid(8ffcd73694f377a45aa692f9f04babf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrainEffect.shader using Guid(8ffcd73694f377a45aa692f9f04babf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25001219470458c6ff02b57cc6f56fb0') in 0.0280397 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.875152 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(46136e50ae2bbbe47adb5fdef8c65087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(46136e50ae2bbbe47adb5fdef8c65087) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf81d0af122047e62231f321320e326e') in 0.3998748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.468527 seconds.
+  path: Assets/fond-noisy_1194-7547.jpg
+  artifactKey: Guid(76ac6d7cd263e554991116925dccf62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fond-noisy_1194-7547.jpg using Guid(76ac6d7cd263e554991116925dccf62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7e34b15cc0ea9b308133d4ff22b16af') in 0.0472377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.43 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6799 unused Assets / (7.1 MB). Loaded Objects now: 7807.
+Memory consumption went from 187.8 MB to 180.7 MB.
+Total: 19.553800 ms (FindLiveObjects: 0.565900 ms CreateObjectMapping: 0.540400 ms MarkObjects: 15.716600 ms  DeleteObjects: 2.729100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.772 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 8 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Could not load the file 'NiceIO'.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.VisualScripting.Codebase:IsEditorAssembly (System.Reflection.Assembly,System.Collections.Generic.HashSet`1<string>) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:383)
+Unity.VisualScripting.Codebase:IsRuntimeAssembly (System.Reflection.Assembly) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:404)
+Unity.VisualScripting.Codebase:.cctor () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:46)
+Unity.VisualScripting.PluginContainer:Initialize () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:86)
+Unity.VisualScripting.PluginContainer:InitializeOnLoad () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32)
+Unity.VisualScripting.VSUsageUtility:DoInitializeOnLoadCalls () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76)
+Unity.VisualScripting.VSUsageUtility:set_isVisualScriptingUsed (bool) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114)
+Unity.VisualScripting.VSUsageUtility:CheckAndSetIsVisualScriptingUsed () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33)
+Unity.VisualScripting.VSUsageUtility:.cctor () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs Line: 383)
+
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.302 seconds
+Domain Reload Profiling: 2072ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (351ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (174ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1302ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (746ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (558ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.41 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6821 unused Assets / (6.9 MB). Loaded Objects now: 7709.
+Memory consumption went from 187.1 MB to 180.1 MB.
+Total: 17.030700 ms (FindLiveObjects: 0.580200 ms CreateObjectMapping: 0.880200 ms MarkObjects: 12.744500 ms  DeleteObjects: 2.824200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 167.816514 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(46136e50ae2bbbe47adb5fdef8c65087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(46136e50ae2bbbe47adb5fdef8c65087) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '991b32b21bd7ab80a583bb4eec637545') in 0.4450604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.31 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6799 unused Assets / (6.8 MB). Loaded Objects now: 7833.
+Memory consumption went from 192.4 MB to 185.6 MB.
+Total: 17.689200 ms (FindLiveObjects: 0.724100 ms CreateObjectMapping: 0.466700 ms MarkObjects: 14.056800 ms  DeleteObjects: 2.439300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.726 seconds
+Refreshing native plugins compatible for Editor in 2.17 ms, found 8 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Could not load the file 'NiceIO'.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.VisualScripting.Codebase:IsEditorAssembly (System.Reflection.Assembly,System.Collections.Generic.HashSet`1<string>) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:383)
+Unity.VisualScripting.Codebase:IsRuntimeAssembly (System.Reflection.Assembly) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:404)
+Unity.VisualScripting.Codebase:.cctor () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:46)
+Unity.VisualScripting.PluginContainer:Initialize () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:86)
+Unity.VisualScripting.PluginContainer:InitializeOnLoad () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32)
+Unity.VisualScripting.VSUsageUtility:DoInitializeOnLoadCalls () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76)
+Unity.VisualScripting.VSUsageUtility:set_isVisualScriptingUsed (bool) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114)
+Unity.VisualScripting.VSUsageUtility:CheckAndSetIsVisualScriptingUsed () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33)
+Unity.VisualScripting.VSUsageUtility:.cctor () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs Line: 383)
+
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.076 seconds
+Domain Reload Profiling: 1801ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (441ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1077ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (619ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (475ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.45 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6821 unused Assets / (7.0 MB). Loaded Objects now: 7734.
+Memory consumption went from 188.6 MB to 181.7 MB.
+Total: 17.725200 ms (FindLiveObjects: 0.620400 ms CreateObjectMapping: 0.501500 ms MarkObjects: 13.534500 ms  DeleteObjects: 3.067700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 177.458773 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-9.png
+  artifactKey: Guid(20243c093ecdc7f48b07027e7e5726c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-9.png using Guid(20243c093ecdc7f48b07027e7e5726c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e1c7bdb07f3afa9f7a9cfa87fa8097e') in 0.0721776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-12.png
+  artifactKey: Guid(c4b3b1655c7a6ec4588b015b86365f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-12.png using Guid(c4b3b1655c7a6ec4588b015b86365f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a28ad5de4787c99f4c8f4a73f7793973') in 0.0166532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-11.png
+  artifactKey: Guid(e2a51ed5def90fd41b361eb181af3984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-11.png using Guid(e2a51ed5def90fd41b361eb181af3984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53d530279ac8a5222dbf24990f65955c') in 0.0218953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite Enemie/Grass_Tail_Animator/Sprites/Colored/Fox.png
+  artifactKey: Guid(ff8252dfa6fdca0458503af62886a0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/Grass_Tail_Animator/Sprites/Colored/Fox.png using Guid(ff8252dfa6fdca0458503af62886a0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22ce61973c9397132be6bfe5a55d8871') in 0.0655589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprite Environement/Forest sprite pack/Sprites/Flowers.png
+  artifactKey: Guid(8207508e20b31af4b83474812b445429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Environement/Forest sprite pack/Sprites/Flowers.png using Guid(8207508e20b31af4b83474812b445429) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b1be36295acfbfdc4da04e936a6e01e') in 0.0698203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite Environement/Forest sprite pack/Sprites/Gears.png
+  artifactKey: Guid(a51fda767a358904f8eaca980c07790b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Environement/Forest sprite pack/Sprites/Gears.png using Guid(a51fda767a358904f8eaca980c07790b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6349fd3392f53984da81479a4daa201') in 0.0329572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprite Environement/Forest sprite pack/Sprites/forest gr fill.png
+  artifactKey: Guid(111ea4ac01976534d894beb48434b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Environement/Forest sprite pack/Sprites/forest gr fill.png using Guid(111ea4ac01976534d894beb48434b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7a80d17fd94195336d403a29edd2a1d') in 0.0228566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprite Environement/Forest sprite pack/Sprites/foliage blur.png
+  artifactKey: Guid(700217e30ef4f0545a65f1761f9ab991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Environement/Forest sprite pack/Sprites/foliage blur.png using Guid(700217e30ef4f0545a65f1761f9ab991) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f89bc9d4eae91add880be1f4bbd13dc') in 0.0521943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028167 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-3.png
+  artifactKey: Guid(eb679b6e10f9163459c10f075fabc025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-3.png using Guid(eb679b6e10f9163459c10f075fabc025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8644e2468065f43550b523dd271895c5') in 0.0139513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-5.png
+  artifactKey: Guid(810c7074ca9d7c641bdae4e07f788704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-5.png using Guid(810c7074ca9d7c641bdae4e07f788704) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92f5173316ec1fed02cf9a3932876a88') in 0.0128654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-14.png
+  artifactKey: Guid(c54fb2f6b03536248aac9b1243d67d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-14.png using Guid(c54fb2f6b03536248aac9b1243d67d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a65ced59a96dec94eb28e8c105e24f7') in 0.0198471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-10.png
+  artifactKey: Guid(f248dcc625035fa499350bc28c51573a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-10.png using Guid(f248dcc625035fa499350bc28c51573a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13336fa83e165a97e3a0388c651dfba3') in 0.0144354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-12.png
+  artifactKey: Guid(b0a62cfe6540f2a4391c1c3de0d9215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-12.png using Guid(b0a62cfe6540f2a4391c1c3de0d9215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81ee52dfdf36c44cdeea6c4991ebc56c') in 0.0145548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-7.png
+  artifactKey: Guid(d8281014061a9624ab40d9e0667f091a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-7.png using Guid(d8281014061a9624ab40d9e0667f091a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08ec8846bb1729f1180467ce2fedaaa1') in 0.0144855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-8.png
+  artifactKey: Guid(0897eaafbee8a6b44ac3dad7a07e91ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-8.png using Guid(0897eaafbee8a6b44ac3dad7a07e91ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86ddf003fa27c4bc6b306a71068ac0f4') in 0.0147901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-11.png
+  artifactKey: Guid(2844da2726d69a448a8731a40acb370d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-11.png using Guid(2844da2726d69a448a8731a40acb370d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec030e95bf80f19652bf3f872f6a31a8') in 0.0183299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-6.png
+  artifactKey: Guid(a0ca0fc4c6acc10489a494a984961e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-5-Textures/Flower-5-6.png using Guid(a0ca0fc4c6acc10489a494a984961e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c21e1a4531b683fbc5593fa812849c9') in 0.0140991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-5.png
+  artifactKey: Guid(f7ae411471e29c046b2f63610f69a921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-5.png using Guid(f7ae411471e29c046b2f63610f69a921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6078b357f365fd18850d11bd76a009c') in 0.0138962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-1.png
+  artifactKey: Guid(f14ade3438873534bb88c9a134d0a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-1.png using Guid(f14ade3438873534bb88c9a134d0a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9262a2452e3fdc52ac282dd089e0eb60') in 0.0139101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-3-Textures/Flower-3-2.png
+  artifactKey: Guid(03e1da9ba38e32a47ad6852eeff86348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-3-Textures/Flower-3-2.png using Guid(03e1da9ba38e32a47ad6852eeff86348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c371309a54f58878294fd0606249c990') in 0.0302436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-14.png
+  artifactKey: Guid(685b19be447397e4b81e8b59f03245dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-14.png using Guid(685b19be447397e4b81e8b59f03245dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47c779ab850bd9794b5ab8bd607f4ea2') in 0.0156141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-3-Textures/Flower-3-5.png
+  artifactKey: Guid(415848b00dbec8c42957b2549c08ffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-3-Textures/Flower-3-5.png using Guid(415848b00dbec8c42957b2549c08ffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3190c23be06cd7beafc4f02e5af84e6a') in 0.0252049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-3-Textures/Flower-3-6.png
+  artifactKey: Guid(9885d68f2c1eef04d9bd9c3762592001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-3-Textures/Flower-3-6.png using Guid(9885d68f2c1eef04d9bd9c3762592001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5ea7411755d3f450bdb4f79c467f13f') in 0.0215606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-6.png
+  artifactKey: Guid(a9757c37ebe38ce4ea7a1ce45b93d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-6.png using Guid(a9757c37ebe38ce4ea7a1ce45b93d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8906958bbbf775c3a5fb0c13bc4f03a') in 0.0133083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-2.png
+  artifactKey: Guid(79ca2db61ee7b30459d10bf782a52d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-2.png using Guid(79ca2db61ee7b30459d10bf782a52d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f219262323cbd35744de48b3aec6a0d4') in 0.0136835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-7.png
+  artifactKey: Guid(7f2dbc97a8f6b3547a454d0846f6bfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-4-Textures/Flower-4-7.png using Guid(7f2dbc97a8f6b3547a454d0846f6bfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f046348496ae0dbe5672b723af84b6dc') in 0.0120005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-15.png
+  artifactKey: Guid(783ae6bb9b0b8064280fb4813f8d5d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-15.png using Guid(783ae6bb9b0b8064280fb4813f8d5d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b90cc825fcb16d356283fffc3ae88653') in 0.0126923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.672923 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-1.png
+  artifactKey: Guid(3de473dab6201b547a954ae19caf9e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-1.png using Guid(3de473dab6201b547a954ae19caf9e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc2596289a88c9500d48b3e169a6714d') in 0.0120324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-9.png
+  artifactKey: Guid(69ec76719f551264cbb782eaeb69c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-9.png using Guid(69ec76719f551264cbb782eaeb69c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f1af79bdf69faea01a8ee81c9b55553') in 0.0119502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-1-Textures/Flower-1-1.png
+  artifactKey: Guid(e52af67acd99b20488143afa6c628ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-1-Textures/Flower-1-1.png using Guid(e52af67acd99b20488143afa6c628ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b637ae9d1f64e741de29cddfb2d07d5') in 0.024435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Explode/Explode_L_3.png
+  artifactKey: Guid(1bd3ddef684cb1b43af922cd77885f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Explode/Explode_L_3.png using Guid(1bd3ddef684cb1b43af922cd77885f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '702c533cd28c318e21cecdf6edd055f5') in 0.0261801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_jump_4.png
+  artifactKey: Guid(bce85087f60548547aa93dbac5dd99d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_jump_4.png using Guid(bce85087f60548547aa93dbac5dd99d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62143b5a83824c84b40a09e84522cfc0') in 0.009131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Explode/Explode_L_2.png
+  artifactKey: Guid(20c261d9f98f4cd41980ded21832e51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Explode/Explode_L_2.png using Guid(20c261d9f98f4cd41980ded21832e51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd28c10949f161c0deffdcaa8fbcae4ae') in 0.0078952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_jump_3.png
+  artifactKey: Guid(692dda9028f2b904a990541978e40d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_jump_3.png using Guid(692dda9028f2b904a990541978e40d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7cc2974f6eef79e3d830b4a626c0a6b') in 0.0083955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-11.png
+  artifactKey: Guid(a889dcc7e4fce364b92829310d503ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-11.png using Guid(a889dcc7e4fce364b92829310d503ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '811864b6f46ccdb79f8353c8832daf3c') in 0.0129352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Explode/Explode_L_3.png
+  artifactKey: Guid(d491555d6b147604e9502417acd8d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Explode/Explode_L_3.png using Guid(d491555d6b147604e9502417acd8d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f9575bb85eaf867f9ec982694b2ee66') in 0.0254469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Explode/Explode_L_4.png
+  artifactKey: Guid(7c92e35b80ce90b4d9462cba6ab6d9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Explode/Explode_L_4.png using Guid(7c92e35b80ce90b4d9462cba6ab6d9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0069e3a0bdc4075de61893167d02d2db') in 0.024582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-6.png
+  artifactKey: Guid(9089734b5554f9d45ab5032c092ca5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-6.png using Guid(9089734b5554f9d45ab5032c092ca5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e229f576a085fea6c647068619019cc0') in 0.0144379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-1-Textures/Flower-1-4.png
+  artifactKey: Guid(bd887f8227fb38c4a91609f1a1fda16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-1-Textures/Flower-1-4.png using Guid(bd887f8227fb38c4a91609f1a1fda16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99c31a6a0b75f67600d7e4bc83d2169b') in 0.045858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-4.png
+  artifactKey: Guid(1d0d8a258914a3947894ace3287c0c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-4.png using Guid(1d0d8a258914a3947894ace3287c0c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcf6f4723eea15304de0568986feda07') in 0.0149165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_injured_poisoned_18.png
+  artifactKey: Guid(0a2c4e82b3afa554ea736e1ac97fbd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_injured_poisoned_18.png using Guid(0a2c4e82b3afa554ea736e1ac97fbd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '378d73be98394d69a3513ee884daae1a') in 0.0106937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprite/piège/FireBox.png
+  artifactKey: Guid(fcf2c28b6f8701643b0c26d9f7d8c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/piège/FireBox.png using Guid(fcf2c28b6f8701643b0c26d9f7d8c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c61c521f79efef8f427f9e44cfdf692') in 0.0326005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_1/Explode/Explode_L_2.png
+  artifactKey: Guid(c6614d37740771244bc9450be5e026ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_1/Explode/Explode_L_2.png using Guid(c6614d37740771244bc9450be5e026ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94d7fbeac8eba2a9d58015517180f436') in 0.0079335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Explode/Explode_L_3.png
+  artifactKey: Guid(52180bdf3c909b94599a1f5d8e6a7a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Explode/Explode_L_3.png using Guid(52180bdf3c909b94599a1f5d8e6a7a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7303dd365e5ec3f2710cb25cfa632c3c') in 0.0236984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-1-Textures/Flower-1-3.png
+  artifactKey: Guid(0844586c7bd3ea14e8f0aa06e202170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-1-Textures/Flower-1-3.png using Guid(0844586c7bd3ea14e8f0aa06e202170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '308c4ec2cd7f0e35919d66bf1dae3ff0') in 0.0249861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Explode/Explode_L_5.png
+  artifactKey: Guid(e6980726c2424904cb9452e6bae4a148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Explode/Explode_L_5.png using Guid(e6980726c2424904cb9452e6bae4a148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33b3ade5675e6312070a1543829cce0d') in 0.0269749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-8.png
+  artifactKey: Guid(f6a4c70faaf8d8746a7c3eee7e23ba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-8.png using Guid(f6a4c70faaf8d8746a7c3eee7e23ba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b764adbcf68c44553baf954b2fe5617f') in 0.0135218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-10.png
+  artifactKey: Guid(a830ecdafb9b89949b14aed8045f4956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-10.png using Guid(a830ecdafb9b89949b14aed8045f4956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c739da881d1fcde8717a1937ae79dca8') in 0.0162991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Bomb/Explode/Explode_L_4.png
+  artifactKey: Guid(49381441045f56c4aab29c91b67cf854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Bomb/Explode/Explode_L_4.png using Guid(49381441045f56c4aab29c91b67cf854) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '472296bc1e9ba2ede4847eb1bff200c9') in 0.0116724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_injured_poisoned_17.png
+  artifactKey: Guid(c29c4dbcde678904a9f8d477695b80dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_injured_poisoned_17.png using Guid(c29c4dbcde678904a9f8d477695b80dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fa5cfbcdd009c292aebbf183846275f') in 0.0159455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-12.png
+  artifactKey: Guid(a220e12c636ce5a4f9001f0737575aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Enemie/OldStyleCartoonFlowers/Textures/Flower-2-Textures/Flower-2-12.png using Guid(a220e12c636ce5a4f9001f0737575aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adf039c15c496e6a26678735418a6a83') in 0.0158959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Explode/Explode_L_5.png
+  artifactKey: Guid(89c83a1079e550b438dc4476daac03a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Explode/Explode_L_5.png using Guid(89c83a1079e550b438dc4476daac03a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef76cf0dd50b10784adbed49604863af') in 0.0221636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_injured_poisoned_16.png
+  artifactKey: Guid(2c07df03c27a1344780a2340faf9d198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_injured_poisoned_16.png using Guid(2c07df03c27a1344780a2340faf9d198) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee06e5ab244d5c86ffc3075463e3e690') in 0.0125692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.886 seconds
+Refreshing native plugins compatible for Editor in 3.73 ms, found 8 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Could not load the file 'NiceIO'.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.VisualScripting.Codebase:IsEditorAssembly (System.Reflection.Assembly,System.Collections.Generic.HashSet`1<string>) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:383)
+Unity.VisualScripting.Codebase:IsRuntimeAssembly (System.Reflection.Assembly) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:404)
+Unity.VisualScripting.Codebase:.cctor () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:46)
+Unity.VisualScripting.PluginContainer:Initialize () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:86)
+Unity.VisualScripting.PluginContainer:InitializeOnLoad () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32)
+Unity.VisualScripting.VSUsageUtility:DoInitializeOnLoadCalls () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76)
+Unity.VisualScripting.VSUsageUtility:set_isVisualScriptingUsed (bool) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114)
+Unity.VisualScripting.VSUsageUtility:CheckAndSetIsVisualScriptingUsed () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33)
+Unity.VisualScripting.VSUsageUtility:.cctor () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs Line: 383)
+
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.436 seconds
+Domain Reload Profiling: 2319ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (211ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (844ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (648ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.72 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6821 unused Assets / (6.8 MB). Loaded Objects now: 7878.
+Memory consumption went from 188.8 MB to 182.0 MB.
+Total: 21.698800 ms (FindLiveObjects: 0.709800 ms CreateObjectMapping: 0.622800 ms MarkObjects: 16.868600 ms  DeleteObjects: 3.496100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.753 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 8 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Could not load the file 'NiceIO'.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.VisualScripting.Codebase:IsEditorAssembly (System.Reflection.Assembly,System.Collections.Generic.HashSet`1<string>) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:383)
+Unity.VisualScripting.Codebase:IsRuntimeAssembly (System.Reflection.Assembly) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:404)
+Unity.VisualScripting.Codebase:.cctor () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:46)
+Unity.VisualScripting.PluginContainer:Initialize () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:86)
+Unity.VisualScripting.PluginContainer:InitializeOnLoad () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32)
+Unity.VisualScripting.VSUsageUtility:DoInitializeOnLoadCalls () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76)
+Unity.VisualScripting.VSUsageUtility:set_isVisualScriptingUsed (bool) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114)
+Unity.VisualScripting.VSUsageUtility:CheckAndSetIsVisualScriptingUsed () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33)
+Unity.VisualScripting.VSUsageUtility:.cctor () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs Line: 383)
+
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.275 seconds
+Domain Reload Profiling: 2027ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (351ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (175ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1275ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (745ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (581ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.66 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6821 unused Assets / (7.0 MB). Loaded Objects now: 7881.
+Memory consumption went from 188.8 MB to 181.8 MB.
+Total: 19.918200 ms (FindLiveObjects: 0.756000 ms CreateObjectMapping: 0.811100 ms MarkObjects: 15.205300 ms  DeleteObjects: 3.143900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.716 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 8 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Could not load the file 'NiceIO'.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.VisualScripting.Codebase:IsEditorAssembly (System.Reflection.Assembly,System.Collections.Generic.HashSet`1<string>) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:383)
+Unity.VisualScripting.Codebase:IsRuntimeAssembly (System.Reflection.Assembly) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:404)
+Unity.VisualScripting.Codebase:.cctor () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs:46)
+Unity.VisualScripting.PluginContainer:Initialize () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:86)
+Unity.VisualScripting.PluginContainer:InitializeOnLoad () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32)
+Unity.VisualScripting.VSUsageUtility:DoInitializeOnLoadCalls () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76)
+Unity.VisualScripting.VSUsageUtility:set_isVisualScriptingUsed (bool) (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114)
+Unity.VisualScripting.VSUsageUtility:CheckAndSetIsVisualScriptingUsed () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33)
+Unity.VisualScripting.VSUsageUtility:.cctor () (at ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection/Codebase.cs Line: 383)
+
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.237 seconds
+Domain Reload Profiling: 1952ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (441ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (182ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1237ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (719ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (550ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.58 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6821 unused Assets / (7.5 MB). Loaded Objects now: 7884.
+Memory consumption went from 188.8 MB to 181.3 MB.
+Total: 17.190700 ms (FindLiveObjects: 0.602800 ms CreateObjectMapping: 0.550500 ms MarkObjects: 13.029500 ms  DeleteObjects: 3.006500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 125.023126 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Explode/Explode_R_8.png
+  artifactKey: Guid(78e3bb0376cbea4499c336811185a5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Explode/Explode_R_8.png using Guid(78e3bb0376cbea4499c336811185a5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c69768224bc798c2bb99c09a28db4bc0') in 0.0960367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Dash/Dash_L_4.png
+  artifactKey: Guid(7f4a8cf3f95b74b4ba9ede1bed8fe2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Dash/Dash_L_4.png using Guid(7f4a8cf3f95b74b4ba9ede1bed8fe2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac4934b09cfcb6efcc93bab72ebd2f6e') in 0.0111712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprite/Kings and Pigs/Sprites/01-King Human/Fall (78x58).png
+  artifactKey: Guid(b8ece25ce4472f949930a08aad6b2326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kings and Pigs/Sprites/01-King Human/Fall (78x58).png using Guid(b8ece25ce4472f949930a08aad6b2326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '194458b168b43cfc5fad588edff2af6b') in 0.0159583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/piège/FallingPlatfrom.png
+  artifactKey: Guid(34a2f4453e8ade04e9413f930e63e941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/piège/FallingPlatfrom.png using Guid(34a2f4453e8ade04e9413f930e63e941) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0cd1e5a3589af1898f47821e6bd4236') in 0.0328633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Dash/Dash_L_5.png
+  artifactKey: Guid(61ee15f4e6c13824d844d85674879854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Dash/Dash_L_5.png using Guid(61ee15f4e6c13824d844d85674879854) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99131c8e0a1ccd7909f1d65e682e373e') in 0.0098504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Bomb/Explode/Explode_R_12.png
+  artifactKey: Guid(62407c00692975741a2c4813975f0e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Bomb/Explode/Explode_R_12.png using Guid(62407c00692975741a2c4813975f0e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c945f8f4044d7753b5a93c52d4e24b1') in 0.0161268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_run_4.png
+  artifactKey: Guid(ddfd7c8585640de4c919ce6442151bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_run_4.png using Guid(ddfd7c8585640de4c919ce6442151bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36abae68725a2807ea04c589ac56f6e2') in 0.0133345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_showoff_7.png
+  artifactKey: Guid(922db2957d090aa4aab95ea0b8a95ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_showoff_7.png using Guid(922db2957d090aa4aab95ea0b8a95ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0861604dc6ab7dfbbc649183e1aa2ee0') in 0.0111951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Explode/Explode_F_4.png
+  artifactKey: Guid(918b879863d624d49a2dedd7a28a5638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Explode/Explode_F_4.png using Guid(918b879863d624d49a2dedd7a28a5638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbc8b69f6d2582021b30cf93eec0edb3') in 0.0264165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Bomb/Explode/Explode_R_10.png
+  artifactKey: Guid(8c4c6374348c9f140a5bd6d837a6fb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Bomb/Explode/Explode_R_10.png using Guid(8c4c6374348c9f140a5bd6d837a6fb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '495e9ea434736a76cf6733e8273a99e7') in 0.0261771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Explode/Explode_F_5.png
+  artifactKey: Guid(d050d9d65595d984c9f1707b5e9d0ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Explode/Explode_F_5.png using Guid(d050d9d65595d984c9f1707b5e9d0ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '786268f7e5c1915c989ec6c8daf88e09') in 0.0214345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/Spritesheet/character_enemy_sandbug_death.png
+  artifactKey: Guid(678367b59c2bea2478960b5bfb0dc327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/Spritesheet/character_enemy_sandbug_death.png using Guid(678367b59c2bea2478960b5bfb0dc327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '383f4eac9bb718fc542f1d261f3601df') in 0.0199838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_showoff_3.png
+  artifactKey: Guid(ef8e059bf21ff2444abf5228d9a82049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_showoff_3.png using Guid(ef8e059bf21ff2444abf5228d9a82049) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f273ef5f00ede44d835050b43066014') in 0.0079646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Explode/Explode_F_1.png
+  artifactKey: Guid(549979eee7366e94ab098fb2b921b967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Explode/Explode_F_1.png using Guid(549979eee7366e94ab098fb2b921b967) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15be7d7260940fc33fe6124961cd3189') in 0.0099738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_1/Dash/Dash_L_4.png
+  artifactKey: Guid(e74e8b071bf206841bba546a87aaa094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_1/Dash/Dash_L_4.png using Guid(e74e8b071bf206841bba546a87aaa094) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1eaeaa8ca9bfa55e09c36037fd6ce61') in 0.0070063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Dash/Dash_L_7.png
+  artifactKey: Guid(4727ed0f29ab20846b5a0357d8de752e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Dash/Dash_L_7.png using Guid(4727ed0f29ab20846b5a0357d8de752e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71307beb15465d870187673a317a3783') in 0.0084273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_1/Explode/Explode_F_2.png
+  artifactKey: Guid(d76d5feb97373ff41a18bc2d70645516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_1/Explode/Explode_F_2.png using Guid(d76d5feb97373ff41a18bc2d70645516) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eeae15b20ebb6ea6a90bd8392d0b621') in 0.0083425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Explode/Explode_F_3.png
+  artifactKey: Guid(aeed99976ff9d1c43a47abae102fbad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Explode/Explode_F_3.png using Guid(aeed99976ff9d1c43a47abae102fbad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d5307419395cb03b636067ee875d0fe') in 0.0251338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_run_5.png
+  artifactKey: Guid(ac05d6cc9aa1b4147965b07949c4818d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_run_5.png using Guid(ac05d6cc9aa1b4147965b07949c4818d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7624a8a8c7100980e2e9dcf79ff83bb1') in 0.0093379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Dash/Dash_L_6.png
+  artifactKey: Guid(6f61c177567cdec408be25e258681a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Dash/Dash_L_6.png using Guid(6f61c177567cdec408be25e258681a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a4b9e35fa5dcef5cfacff544ff5e571') in 0.0076754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Explode/Explode_R_8.png
+  artifactKey: Guid(4351ed9cd9b6e0b449349c095c84043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Explode/Explode_R_8.png using Guid(4351ed9cd9b6e0b449349c095c84043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e237b54900c05486bba761393e04ec85') in 0.0084801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Explode/Explode_F_3.png
+  artifactKey: Guid(872bd2dd5e21db84db561636062eb146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Explode/Explode_F_3.png using Guid(872bd2dd5e21db84db561636062eb146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c4d28551a5f614468bb4c685507d026') in 0.0246146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_enemy_sandbug_death_2.png
+  artifactKey: Guid(40f022d31b51ace4bbc0a7b46f05c55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_enemy_sandbug_death_2.png using Guid(40f022d31b51ace4bbc0a7b46f05c55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c9c5b9ea873686531a0646b39e76842') in 0.0093049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprite/Kings and Pigs/Sprites/03-Pig/Fall (34x28).png
+  artifactKey: Guid(449cd1aab52865847a0112a3b0af27e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Kings and Pigs/Sprites/03-Pig/Fall (34x28).png using Guid(449cd1aab52865847a0112a3b0af27e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72324e24f9f2fa4790782efbc60f0abe') in 0.0098943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_showoff_6.png
+  artifactKey: Guid(4915e7f149bb7574b83ef7869b4829c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_showoff_6.png using Guid(4915e7f149bb7574b83ef7869b4829c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a686ae87a80f50cef2ca725dd858d245') in 0.0081589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_1/Explode/Explode_F_4.png
+  artifactKey: Guid(9046adcd77f02814ba9b89045854408d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_1/Explode/Explode_F_4.png using Guid(9046adcd77f02814ba9b89045854408d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '149033b822fccacd3263e8b36a2b0581') in 0.0218224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Dash/Dash_L_7.png
+  artifactKey: Guid(f5ab8c915136b5944b9b285b1453c611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Dash/Dash_L_7.png using Guid(f5ab8c915136b5944b9b285b1453c611) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f84bf41557c6f2459cb0556060a9cfe1') in 0.0081536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Dash/Dash_L_5.png
+  artifactKey: Guid(b1df5d297ee57244cbd7324f1a6399b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Dash/Dash_L_5.png using Guid(b1df5d297ee57244cbd7324f1a6399b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d31f838e980f53bf8a9ccc841c8dd4c') in 0.0086216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Dash/Dash_L_6.png
+  artifactKey: Guid(f3172b51ba79d914ca80f66b37d4284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Dash/Dash_L_6.png using Guid(f3172b51ba79d914ca80f66b37d4284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22a36e429111d5c0f7fe6c16f31f0f84') in 0.0078912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Explode/Explode_F_2.png
+  artifactKey: Guid(dbea1f25254dfde4cbacb9b02ba52d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_3/Explode/Explode_F_2.png using Guid(dbea1f25254dfde4cbacb9b02ba52d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '063d0239d768ab64e269eaf48dd16e21') in 0.0095982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_1/Dash/Dash_L_6.png
+  artifactKey: Guid(78d806de680ce0540bd832508b9dd475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_1/Dash/Dash_L_6.png using Guid(78d806de680ce0540bd832508b9dd475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af18f2df73017642dcc91bf232707b0f') in 0.0092521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Dash/Dash_L_6.png
+  artifactKey: Guid(807eef753f4673842952d6758b3db78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Dash/Dash_L_6.png using Guid(807eef753f4673842952d6758b3db78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '800727df8868165f8bb48b027e6ebcdf') in 0.0072957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_showoff_2.png
+  artifactKey: Guid(c9ff5dabaf0dd824e8244ef7b29cc758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Berie's_Adventure_Seaside_Asset_Pack_Free 1/PNG/character_berie_showoff_2.png using Guid(c9ff5dabaf0dd824e8244ef7b29cc758) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df8eff23de9488d4a32bb3bdb399b1cb') in 0.0084125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Explode/Explode_F_4.png
+  artifactKey: Guid(a6c246a2537b5d54f99d64ff0372c5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_2/Explode/Explode_F_4.png using Guid(a6c246a2537b5d54f99d64ff0372c5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8905af87368049c08183f440a244c820') in 0.0199898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Explode/Explode_F_3.png
+  artifactKey: Guid(bdbcd0f50ea1f754787f74635e9b8d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Balloon/Balloon_4/Explode/Explode_F_3.png using Guid(bdbcd0f50ea1f754787f74635e9b8d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dc15d000a028e1ac2994e463e90d03f') in 0.0207493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

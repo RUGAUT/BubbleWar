@@ -1,0 +1,474 @@
+fileFormatVersion: 2
+guid: a41cf90e338161a46b25f062f0c5636a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 614351855318908094
+    second: DeWatermark.ai_1737720919493-removebg-preview_0
+  - first:
+      213: -1870478607153296458
+    second: DeWatermark.ai_1737720919493-removebg-preview_1
+  - first:
+      213: 4557583708027418114
+    second: DeWatermark.ai_1737720919493-removebg-preview_2
+  - first:
+      213: 2738796808373614393
+    second: DeWatermark.ai_1737720919493-removebg-preview_3
+  - first:
+      213: 1215085096321378657
+    second: DeWatermark.ai_1737720919493-removebg-preview_4
+  - first:
+      213: 5959514119566793880
+    second: DeWatermark.ai_1737720919493-removebg-preview_5
+  - first:
+      213: 2804988901065923554
+    second: DeWatermark.ai_1737720919493-removebg-preview_6
+  - first:
+      213: -8441332419098985797
+    second: DeWatermark.ai_1737720919493-removebg-preview_7
+  - first:
+      213: -50919042211474610
+    second: DeWatermark.ai_1737720919493-removebg-preview_8
+  - first:
+      213: -7404062529291121490
+    second: DeWatermark.ai_1737720919493-removebg-preview_9
+  - first:
+      213: -2466559526356017310
+    second: DeWatermark.ai_1737720919493-removebg-preview_10
+  - first:
+      213: 4102628339136989718
+    second: DeWatermark.ai_1737720919493-removebg-preview_11
+  - first:
+      213: -4588005866438490415
+    second: DeWatermark.ai_1737720919493-removebg-preview_12
+  - first:
+      213: -4556665712377362626
+    second: DeWatermark.ai_1737720919493-removebg-preview_13
+  - first:
+      213: 6350041522085175584
+    second: DeWatermark.ai_1737720919493-removebg-preview_14
+  - first:
+      213: 1296494103638958245
+    second: DeWatermark.ai_1737720919493-removebg-preview_15
+  - first:
+      213: -161434115004919497
+    second: DeWatermark.ai_1737720919493-removebg-preview_16
+  - first:
+      213: 7841397590041560809
+    second: DeWatermark.ai_1737720919493-removebg-preview_17
+  - first:
+      213: 2629016264704532480
+    second: DeWatermark.ai_1737720919493-removebg-preview_18
+  - first:
+      213: 5353590075929431708
+    second: DeWatermark.ai_1737720919493-removebg-preview_19
+  - first:
+      213: -7925139960310568757
+    second: DeWatermark.ai_1737720919493-removebg-preview_20
+  - first:
+      213: 4156893486996083055
+    second: DeWatermark.ai_1737720919493-removebg-preview_21
+  - first:
+      213: 7564818016297145633
+    second: DeWatermark.ai_1737720919493-removebg-preview_22
+  - first:
+      213: -6887071377655356169
+    second: DeWatermark.ai_1737720919493-removebg-preview_23
+  - first:
+      213: 6423484145577888820
+    second: DeWatermark.ai_1737720919493-removebg-preview_24
+  - first:
+      213: -7318155556548226901
+    second: DeWatermark.ai_1737720919493-removebg-preview_25
+  - first:
+      213: 5721742546425510506
+    second: DeWatermark.ai_1737720919493-removebg-preview_26
+  - first:
+      213: 7521959529727895678
+    second: DeWatermark.ai_1737720919493-removebg-preview_27
+  - first:
+      213: -6598155274484741526
+    second: DeWatermark.ai_1737720919493-removebg-preview_28
+  - first:
+      213: -7819968871556611745
+    second: DeWatermark.ai_1737720919493-removebg-preview_29
+  - first:
+      213: 8164875285534893931
+    second: DeWatermark.ai_1737720919493-removebg-preview_30
+  - first:
+      213: -2292709117821783587
+    second: DeWatermark.ai_1737720919493-removebg-preview_31
+  - first:
+      213: -777210611298491820
+    second: DeWatermark.ai_1737720919493-removebg-preview_32
+  - first:
+      213: 1049012623666583450
+    second: DeWatermark.ai_1737720919493-removebg-preview_33
+  - first:
+      213: 6621822262924452320
+    second: DeWatermark.ai_1737720919493-removebg-preview_34
+  - first:
+      213: -4385835642844493275
+    second: DeWatermark.ai_1737720919493-removebg-preview_35
+  - first:
+      213: 2492010535365632778
+    second: DeWatermark.ai_1737720919493-removebg-preview_36
+  - first:
+      213: 5728536265879571110
+    second: DeWatermark.ai_1737720919493-removebg-preview_37
+  - first:
+      213: -337283497440551874
+    second: DeWatermark.ai_1737720919493-removebg-preview_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeWatermark.ai_1737720919493-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 226
+        width: 79
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcb267e1cd968800800000000000000
+      internalID: 614351855318908094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeWatermark.ai_1737720919493-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 225
+        width: 81
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb09a4fd99ba06e0800000000000000
+      internalID: -1870478607153296458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeWatermark.ai_1737720919493-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 226
+        width: 82
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206f41f3c3acf3f30800000000000000
+      internalID: 4557583708027418114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeWatermark.ai_1737720919493-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 226
+        width: 92
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937351bbf29220620800000000000000
+      internalID: 2738796808373614393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeWatermark.ai_1737720919493-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 226
+        width: 100
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1696b121579dcd010800000000000000
+      internalID: 1215085096321378657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeWatermark.ai_1737720919493-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 62
+        width: 103
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c14b2548274b250800000000000000
+      internalID: 5959514119566793880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeWatermark.ai_1737720919493-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 62
+        width: 114
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d65b2391208de94a9d4b5615b20efec
+      internalID: 1266026189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeWatermark.ai_1737720919493-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 62
+        width: 112
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7213eab7729af1438e326c7aee54460
+      internalID: 1324972485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeWatermark.ai_1737720919493-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 61
+        width: 116
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f612aa60b6c434f9d49c8d92351f11
+      internalID: -863891248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a8dbbafdfd343b945860dc0f162cfafd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DeWatermark.ai_1737720919493-removebg-preview_6: 1266026189
+      DeWatermark.ai_1737720919493-removebg-preview_7: 1324972485
+      DeWatermark.ai_1737720919493-removebg-preview_8: -863891248
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
